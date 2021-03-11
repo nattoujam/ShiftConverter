@@ -6,8 +6,8 @@
 - fcitx-mozc
 
 # Usage
-1. '' $ install.sh [install dir]''
+1. ``$ install.sh [install dir]``
 2. inputグループへ追加
   - ``sudo gpasswd -a [username] input``
 3. serviceを起動
-  - ``systemctl --user start shiftConverter.service"
+  - ``systemctl --user start shiftConverter.servic``
