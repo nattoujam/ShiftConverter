@@ -18,6 +18,7 @@ gcc -o ${dir}/shiftConverter shiftConverter.c
 
 echo "#!/bin/sh" > $shell
 echo "exec ${dir}/shiftConverter < /dev/input/event3" >> $shell
+chmod 700 $shell
 echo "create execute file: $shell"
 
 echo "create service file: $service"
