@@ -11,6 +11,8 @@ dir=$(cd $1 && pwd)/ShiftConverter
 shell=${dir}/run.sh
 service=${dir}/shiftConverter.service
 
+mkdir $dir
+
 echo "gcc -o ${dir}/shitConverter shiftConverter.c"
 gcc -o ${dir}/shiftConverter shiftConverter.c
 
