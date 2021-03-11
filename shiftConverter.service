@@ -1,0 +1,12 @@
+[Unit]
+Description=Shift Converter
+
+[Service]
+Type=simple
+ExecStart=/home/icduser/Startup/ShiftConverter/run.sh
+Restart=no
+User=icduser
+Group=input
+
+[Install]
+WantedBy=multi-user.target
