@@ -7,7 +7,7 @@ then
 fi
 
 echo "install at $1"
-dir=$(cd $1 && pwd)
+dir=$(cd $1 && pwd)/ShiftConverter
 shell=${dir}/run.sh
 service=${dir}/shiftConverter.service
 
