@@ -1,0 +1,10 @@
+[Unit]
+Description=Shift Converter
+
+[Service]
+Type=simple
+ExecStart=/home/username/Startup/ShiftConverter/run.sh
+Restart=always
+
+[Install]
+WantedBy=default.target
